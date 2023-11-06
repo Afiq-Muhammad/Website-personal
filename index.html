@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Turorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d02c6194e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#portfolio">Profil</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Program Website</p>
+            <h1>Hi, I'am<span> Syafiq</span><br>Muhammad Humami</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Profil.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"Be better and useful"</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Reward')">Reward</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Designer</span><br>•Membuat brosur,poster dan lain lain.</li>
+                        <li>•Mengedit Foto dan Video.</li>
+                        <li><span>Online Shop</span><br>•Menjual Software dan Hardware.</li>
+                        <li>•Networking Skill.</li>
+                        <li><span>Programing Language</span><br>•Menguasai bahasa dasar Html,Css,Java dan Python.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Reward">
+                    <ul>
+                        <li><span>Akademik</span><br>•Juara Paralel SD & SMP.&emsp;•Juara Cerdas Cermat Ilmu Fiqih.</li>
+                        <li>•Juara Debat Sekolah.</li>           
+                        <li><span>NonAkademik</span><br>•Khatam Juz 30 dan Surat Tertentu.&emsp;•Juara Lomba Marawis.</li>
+                        <li>•Juara Lomba Shalawat.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>MI Miftahul Falah</span><br>Jl.Madrasah Bojong Rt 06 Rw 20,Bakti Jaya,Kec Sukmajaya.</li>
+                    <li><span>MTS Al Islamiyah</span><br>Jl.Jasawarga Sugutamu Rt 03 Rw 21,Bakti Jaya,Kec Sukmajaya.</li> 
+                    <li><span>SMK IT Raflesia</span><br>Jl.Mahkota Raya No 32B Pondok Duta,Tugu,Kec Cimanggis.</li>
+                </ul>
+               </div>
+          </div>
+    </div>
+ </div>
+<!-- -----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">IT</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Program Website</h2>
+                <p>Kegiatan pembuatan program atau aplikasi berbasis web menggunakan bahasa programan tertentu sehingga dapat memproses data dan menghasilkan informasi sesuai dikehendaki oleh owner web.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Kewirausahaan</h2>
+                <p>Proses penciptaan sesuatu yang baru dan berbeda dengan menggunakan waktu,modal serta berani mengambil risiko.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Pemograman Beriontesi objek</h2>
+                <p>Paragdima pemograman berdasarkan konsep "objek" yang dapat berisi atribut dan method.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------portfolio------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobby</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Badminton.jpeg">
+                <div class="layer">
+                    <h3>Badminton</h3>
+                    <p>Olahraga yang</p>
+                    <p>menggunakan</p>
+                    <p>raket dan shuttlecock.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Sastra.jpeg">
+                <div class="layer">
+                    <h3>Reading Sastra</h3>
+                    <p>Kegiatan membaca</p>
+                    <p>yang berhubungan</p>
+                    <p>dengan seni.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Workout.jpeg">
+                <div class="layer">
+                    <h3>Work Out</h3>
+                    <p>Latihan FIsik</p>
+                    <p>yang dilakukan</p>
+                    <p>di taman terbuka/umum.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>   
+    </div>
+</div>
+<!-- ========contact======== -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-square-envelope fa-rotate-180"></i>afiqsliw@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +62 895-1239-0638</p>
+                <div class="social-icons">
+                    <a href="http://t.me/AfiqFoxVip"><i class="fa-solid fa-paper-plane"></i></a>  
+                    <a href="https://www.facebook.com/profile.php?id=100080138910338&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/afiqmuhammad_45/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://discordapp.com/users/753898724811604020"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="" class="btn btn2">CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Nama" placeholder="Nama" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="5" placeholder="Pesan"></textarea>
+                    <button type="submit" class="btn btn2">Simpan</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+   <div class="copyright">
+        <p>Copyright @ Kevin, Made wtih <i class="fa-solid fa-heart"></i> by easy tutorial</p>
+   </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");       
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    
+</script>   
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwkOM6H2aWi5WYMcNL53ST0cKKs82BqZggPpV7weESM8HscB0xsF5X178YfkwkzjQ6b/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Arigatou bangjago"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
